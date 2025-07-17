@@ -53,8 +53,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='AQI 資料查詢 CLI')
     parser.add_argument('-c', '--county', dest='county',
                         help='過濾縣市名稱 (例如: 臺北市、高雄市)', default=None)
-    parser.add_argument('--file', '-f', help='JSON 檔案路徑 (預設: aqx_p_432.json)',
-                        default='aqx_p_432.json')
+    parser.add_argument('--file', '-f', help='JSON 檔案路徑 (預設: aqx_p_488.json)',
+                        default='aqx_p_488.json')
     args = parser.parse_args()
 
     # 解析 JSON 檔案中的站點資料
