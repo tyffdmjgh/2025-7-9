@@ -5,7 +5,7 @@ async def main():
     #建立一個AsyncWebCrawler的實體
     async with AsyncWebCrawler() as crawler:
         #Run the crawler on a URL
-        result = await crawler.arun(url='https://crawl4ai.com')
+        result = await crawler.arun(url='https://www.junyiacademy.org/course-compare/math-univ/math-calculus/mu-cal-ch1/v/6QmmG34q_sM')
         print(type(result))
         print("=" * 20)        
 
